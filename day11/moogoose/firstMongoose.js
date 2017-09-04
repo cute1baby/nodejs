@@ -4,10 +4,11 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://127.0.0.1:27017/xiyou'); //连接一个新的数据库
 
 var connection = mongoose.connection;  //连上返回的值,类似jquery的data
-//当...的时候
+//连接错误时候的信息提醒
 connection.on('error',function(err){
     console.log(err);
 })
+//连接正确时候的信息提醒
 connection.on('open',function(){
     //we are connected!
     console.log('we are connected');
@@ -15,7 +16,7 @@ connection.on('open',function(){
 
 
 
-//建立schema[类似表头]
+//建立schema[类似表头]，作为模式。
 var monsterSchema = new mongoose.Schema({
     name:{type:String},
     age:{type:Number,default:21},  //设置默认值
@@ -26,10 +27,10 @@ var monsterSchema = new mongoose.Schema({
 
 
 //增加
-//创建Model[代理人]
+//创建Model[代理人]，将模式编译成模型。
 //两个参数：一个是表名称，一个是schema结构.
 var monsterModel = mongoose.model('monster',monsterSchema);
-//创建数据并且写入数据
+//创建两个小妖的数据并且写入数据
 /*testModel.create({
     name:'路人甲',
     age:20,
