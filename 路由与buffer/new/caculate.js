@@ -9,9 +9,9 @@ var server = http.createServer(function(req,res){
     var urlStr = req.url;
     var urlObj=url.parse(urlStr,true);
     console.log(urlObj);
-    var firstNun =+urlObj.query.firstNun;
+    var firstNun =+urlObj.query.firstNun;   //这是解决在做加减运算的时候能够转换成number类型
    // var firstNun1 = parseInt(firstNun);
-    var secondNun =+urlObj.query.secondNun;
+    var secondNun =+urlObj.query.secondNun;  //这是解决在做加减运算的时候能够转换成number类型
    // var secondNun1 = parseInt(secondNun);
 
     //路由    url中的文件路径   资源(静态资源，计算资源)
