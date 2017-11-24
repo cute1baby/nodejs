@@ -12,16 +12,17 @@
 > * 写一个readme文件
 
 下面来写一张图片： 
-![cmd-markdown-logo](https://www.zybuluo.com/static/img/logo.png) 
+![cmd-markdown-logo](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png) 
+
 
 并且下面是有网址链接的网址文本： 
 ### [Windows/Mac/Linux 全平台客户端](https://www.zybuluo.com/cmd/)
 
 > 更神奇的是还可以加入icon小图标:<i class="icon-file"></i> **文本加粗**，并且写成代码的方式
 `<a href="http://www.baidu.com">百度一下</a>` 
- 
+
 ------
- 
+
  ##制作一份todo_list
  - [x] 支持一下
  - [ ] 支持一下
