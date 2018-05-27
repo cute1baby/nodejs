@@ -1,5 +1,8 @@
 # nodejs
 收集了一些nodejs的基础例子。
+Express是一个简洁而灵活的nodejs,web应用框架，提供了一系列强大特性帮助创建各种Web应用和丰富的HTTP工具，
+使用Express可以快速的搭建一个完整功能的网站。
+他只是一个<strong>轻量级的Web框架</strong>，多数功能只是对HTTP协议中常用操作的封装，更多的功能需要插件或者综合其他模块来完成。
 
 安装express:
 ```
