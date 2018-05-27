@@ -14,7 +14,7 @@ mongoDB服务器端安装和启动步骤：
          在bin目录中有许多命令，启动数据库只需要两个命令mongod和mongo：
          mongod：是mongoDB数据库进程本身
          mongo：是命令行shell客户端  
-        启动mongoDB进程：D:\mongodb\bin>mongod --dbpath=D:\mongodb\db
+        启动mongoDB进程：<strong>D:\mongodb\bin>mongod --dbpath=D:\mongodb\db</strong>
 
 [3]、执行到这里，mongoDB服务器已经启动了，接下来就可以在客户端操作数据库了。但是，当mongod.exe启动程序被关闭后，mongoDB客户端就无法连接数据库。
        为了避免每次都要手动启动数据库，可以将mongDB安装为windows服务，让该服务随windows启动而开启，这样，我们在使用mongoDB的时候直接连接数据库就可以了，省去了手动开启服务的繁琐。将mongoDB安装为windows服务并开启的命令：
