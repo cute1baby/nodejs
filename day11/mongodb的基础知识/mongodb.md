@@ -1,4 +1,5 @@
 #首先科普一下MongoDB的安装：
+https://10.0.3.1/svn/ApiManage   111111
 > * [1]、  下载mongoDB安装包：http://www.mongodb.org/downloads
 > * [2]、
 ```
