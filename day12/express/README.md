@@ -17,7 +17,11 @@
       
 安装express:
 ```
-npm install -g express-generator    *安装express生成器*
+前提条件：
+必须将配置好的npm环境变量进行配置，默认地址是：C:\Users\DELL\AppData\Roaming\npm，配置好了之后在Git bash中
+使用：npm list -g --depth 0 查找npm配置的全局包，这个时候就可以使用了。
+
+npm install -g express-generator    *安装express生成器*
 下面是具体的生成过程：
 1、在命令行中cd到需要生成的server目录
 2、运行命令：express app4
